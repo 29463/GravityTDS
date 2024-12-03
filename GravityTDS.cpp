@@ -22,7 +22,7 @@
 
 GravityTDS::GravityTDS()
 {
-    this->pin = A1;
+    this->pin = -1;
     this->temperature = 25.0;
     this->aref = 5.0;
     this->adcRange = 1024.0;
